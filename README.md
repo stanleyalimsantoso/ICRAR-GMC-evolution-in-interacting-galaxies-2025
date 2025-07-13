@@ -24,4 +24,12 @@ To analyse the data, I developed the code *parsetout.py*, which does a simple jo
   <img src="images/interacting 0.1 ratio new stars time evolution picture.png" width="45%" />
 </p>
 
-Again, the H₂ gases (left) and new stars (right). We see that at the third timestep, a pass-by has occurred, and the structure of the galaxy changes drastically before eventually settling in again. The turbulence causes star formation to be more active in certain regions in the outer layers, indicated by the bright clumps in the picture.
+Again, the H₂ gases (left) and new stars (right). We see that at the third timestep, a pass-by has occurred, and the structure of the galaxy changes drastically before eventually settling in again. The turbulence causes star formation to be more active in certain regions in the outer layers, indicated by the bright clumps of new stars in the picture.
+
+### H2 and Star Formation in 0.3 Mass Interacting Galaxy
+<p float="left">
+  <img src="images/interacting 0.3 ratio H2 mass time evolution picture.png" width="45%" />
+  <img src="images/interacting 0.3 ratio new stars time evolution picture.png" width="45%" />
+</p>
+
+Now we see that a much more violent interaction has occurred. The structure of the galaxy is completely broken, leaving only scattered GMCs. Now, surely such a violent interaction impacts the formation and evolution of GMCs. We only need to see one more case after this and we will continue
