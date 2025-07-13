@@ -7,3 +7,11 @@ This is part of a research project I've been working on since April 2025, superv
 The simulations were written by Kenji and run using the OzSTAR supercomputer. My job is to run different setups of the simulation(like isolated galaxies vs interacting galaxies) and analyse how things like tidal forces and collisions affect the formation of GMCs. To explain more, GMCs form when HI(atomic hydrogen) gas clumps at a localised space and gets dense enough to convert to H2(molecular hydrogen). GMCs are the birthplace of stars, as clouds of H2 gas contract and heat up, forming protostars and eventually becoming stars after achieving hydrogen burning in their core. When galaxies interact or collide, they generate tidal forces, which stretch and distort the structure of the galaxies, potentially helping or hindering the formation of GMCs.
 
 First, let's do an isolated galaxy run and see how H2 gas and new stars evolve normally. Running Kenji's simulation gives 6 snapshots of how the galaxy looks at different intervals over 1.4 Gyr(that's 1.4 billion years!)
+
+### H2 and Star Formation in Isolated Galaxies
+<p float="left">
+  <img src="images/Isolated H2 mass time evolution picture.png" width="45%" />
+  <img src="images/isolated new star time evolution picture.png" width="45%" />
+</p>
+
+Here we can see how H2 gases(left) and stars(right) form and distribute over time. Initially, the H2 gases are spread out evenly across the galaxy, and there are no stars present. After some time, the H2 gases clump and create GMCs, which in turn allow star formation to happen. We can see visually that over time, there are more stars present in the galaxy.
