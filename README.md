@@ -40,4 +40,12 @@ In this case, the interaction is noticeably more violent. The structure of the g
   <img src="images/interacting 1.0 ratio new stars time evolution picture.png" width="45%" />
 </p>
 
-We can see the interaction was so strong that it left all of the GMCs scattered. We expect that too much turbulence will negatively impact
+The final case is a very extreme interaction, a 1-1 mass ratio encounter. The interaction completely destroys the original galactic structure, which leaves GMCs scattered and dispersed. The system is too chaotic and turbulent that we are left with nothing in the last frame.
+
+### H2 and Star Formation Plots
+<p float="left">
+  <img src="images/combined H2 graph(3).png" width="45%" />
+  <img src="images/combined new star graph.png" width="45%" />
+</p>
+
+H₂ formation increases with the strength of interaction. The stronger the interaction, the more H₂ gas is produced. However, if the interaction is too strong, like in the 1.0 mass ratio case, the system becomes too chaotic for the H₂ gas to settle and form GMCs. This explains why the 1.0 case has roughly the same number of new stars as the isolated case. The 0.3 mass ratio seems to benefit GMC formation the most, producing 3x more stars than the isolated case
