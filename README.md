@@ -32,4 +32,12 @@ Again, the H₂ gases (left) and new stars (right). We see that at the third tim
   <img src="images/interacting 0.3 ratio new stars time evolution picture.png" width="45%" />
 </p>
 
-Now we see that a much more violent interaction has occurred. The structure of the galaxy is completely broken, leaving only scattered GMCs. Now, surely such a violent interaction impacts the formation and evolution of GMCs. We only need to see one more case after this and we will continue
+In this case, the interaction is noticeably more violent. The structure of the galaxy is completely disrupted, leaving only scattered GMCs. Such a strong interaction clearly has a major impact on the formation and evolution of GMCs. One more case remains to be examined
+
+### H2 and Star Formation in 1.0 Mass Interacting Galaxy
+<p float="left">
+  <img src="images/interacting 1.0 ratio H2 mass time evolution picture.png" width="45%" />
+  <img src="images/interacting 1.0 ratio new stars time evolution picture.png" width="45%" />
+</p>
+
+We can see the interaction was so strong that it left all of the GMCs scattered. We expect that too much turbulence will negatively impact
