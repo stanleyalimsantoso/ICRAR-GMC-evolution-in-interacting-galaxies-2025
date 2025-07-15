@@ -49,3 +49,28 @@ The final case is a very extreme interaction, a 1-1 mass ratio encounter. The in
 </p>
 
 H₂ formation increases with the strength of interaction. The stronger the interaction, the more H₂ gas is produced. However, if the interaction is too strong, like in the 1.0 mass ratio case, the system becomes too chaotic for the H₂ gas to settle and form GMCs. This explains why the 1.0 case has roughly the same number of new stars as the isolated case. The 0.3 mass ratio seems to benefit GMC formation the most, producing 3x more stars than the isolated case
+
+### Weaker vs Stronger Interaction 
+
+We can vary the strength of the interaction without changing the mass ratio of the galaxy by adjusting two orbital parameters:
+- Pericentre distance
+  The shortest distance between the main and the companion galaxy. A smaller pericentre distance produces a stronger tidal force
+- Orbit eccentricity
+  Describes the shape of the orbit.
+  - e = 0 is a circular orbit
+  - 0 < e < 1 is an elliptical orbit
+  - e = 1 is parabolic orbit.
+
+Let's see what happens if the main galaxy interacts with another galaxy of 0.3 mass ratio.
+The settings from the previous simulation were pericentre distance = 1 code unit and eccentricity = 0.8, now we change it to pericentre distance = 2.0 and eccentricity 1.0
+
+A larger pericentre and higher eccentricity create a weaker interaction, allowing the galaxy structure to remain intact after the interaction.
+
+<p float="left">
+  <img src="images/images/stronger vs weaker interaction H2 gas.png" width="45%" />
+  <img src="images/stronger vs weaker interaction new stars.png" width="45%" />
+</p>
+
+The weaker interaction leads to less H₂ formation and slower new star formation. The stronger interaction burns through the H₂ much quicker leading to more new stars initially.
+
+  
