@@ -64,13 +64,20 @@ We can vary the strength of the interaction without changing the mass ratio of t
 Let's see what happens if the main galaxy interacts with another galaxy of 0.3 mass ratio.
 The settings from the previous simulation were pericentre distance = 1 code unit and eccentricity = 0.8, now we change it to pericentre distance = 2.0 and eccentricity 1.0
 
+<p float="left">
+  <img src="images/weaker interaction H2 gas time evolution picture.png" width="45%" />
+  <img src="images/weaker interaction new star time evolution picture.png" width="45%" />
+</p>
+
+
 A larger pericentre and higher eccentricity create a weaker interaction, allowing the galaxy structure to remain intact after the interaction.
 
 <p float="left">
-  <img src="images/images/stronger vs weaker interaction H2 gas.png" width="45%" />
+  <img src="images/stronger vs weaker interaction H2 gas.png" width="45%" />
   <img src="images/stronger vs weaker interaction new stars.png" width="45%" />
 </p>
 
 The weaker interaction leads to less H₂ formation and slower new star formation. The stronger interaction burns through the H₂ much quicker leading to more new stars initially.
+
 
   
