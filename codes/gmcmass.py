@@ -36,8 +36,6 @@ with open("tout.dat", "r") as file:
                 frah.append(float(line[13]))
 
         ngas = len(iwas_list)
-        print(f"DEBUG: snapshot={current_snap}, gas particles (iwas==2) = {len(iwas_list)}")
-
         visited = [False] * ngas
 
         for i in range(ngas):
@@ -83,7 +81,6 @@ with open("tout.dat", "r") as file:
 
     print(bin_counts)
 
-    #check the mass of GMCs
     total_mass = sum(gmc_mass_list)
     mean_mass = total_mass/len(gmc_mass_list)
 
