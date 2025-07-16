@@ -10,9 +10,9 @@ First, let's do an isolated galaxy run and see how H₂ gas and new stars evolve
 
 ### H2 and Star Formation in Isolated Galaxies
 <p float="left">
-  <img src="images/GMC MASS FUNCTION NEW T = 4 COMBINED.png" width="45%" />
+  <img src="images/Isolated H2 mass time evolution picture.png" width="45%" />
+  <img src="images/isolated new star time evolution picture.png" width="45%" />
 </p>
-
 Here, we can see how H₂ gases (left) and new stars (right) form and evolve over time. Initially, the H2 gas is evenly spread out across the galaxy, with no stars present. After some time, the H₂ gas clumps together to form GMCs, which then trigger star formation. Visually, we can see an increasing number of stars as the simulation progresses.
 
 To analyse the data, I developed the code *parsetout.py*, which does a simple job of calculating each of the particles' mass(in solar mass units) and summing them up according to their types (e.g. gas, new star, old star), for each timestep. But before showing the results, let's see how the distribution of stars and gases changes over time in an interacting galaxy. In the interacting model, we simulated a galaxy passing by with a single particle weighing 0.1, 0.3, and 1.0 times that of the original galaxy's mass.
