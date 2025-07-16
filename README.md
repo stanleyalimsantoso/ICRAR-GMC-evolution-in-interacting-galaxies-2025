@@ -94,5 +94,52 @@ Now that we have seen how tidal forces impact the formation of GMCs, consider th
 
 At T = 8(fourth timestep, corresponding to 1.13 Gyr), there is a clear difference in the mass function. In the isolated case, there are fewer low-mass GMCs and many high-mass GMCs, while the distribution in the interacting case is more even. This result is not in agreement with observation, which shows that interacting galaxies usually have more high-mass GMCs. The discrepancy here might be caused by limited resolution(not enough particles) or issues in the detection algorithm.
 
+To better understand why the mass distribution differs between the two models, we can analyse the internal structure and properties of the clouds. This brings us to the radial density and specific angular momentum. The radial density tells us how the mass of a GMC is distributed from its centre outwards, while specific angular momentum is the total angular momentum divided by the cloud's mass.
 
-  
+Here are some results about the radial densities of the GMCs in the isolated and interacting model, at T = 0 and T = 8
+
+<h3 align="center">Radial densities of GMCs at T = 0</h3>
+
+<p float="left" align="center">
+  <img src="images/radial density GMC 1 interacting T = 0.png" width="45%" />
+  <img src="images/radial density GMC 1 isolated T = 0.png" width="45%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Isolated
+</p>
+
+<p float="left" align="center">
+  <img src="images/radial density GMC 2 interacting T = 0.png" width="45%" />
+  <img src="images/radial density GMC 2 isolated T = 0.png" width="45%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Isolated
+</p>
+
+Initially, there are no differences at T = 0 because the companion galaxy hasn't interacted with the main galaxy yet. Hence, let's fast forward a bit and see how these GMCs evolve differently due to the interaction
+
+  <h3 align="center">Radial densities of GMCs at T = 8</h3>
+
+<p float="left" align="center">
+  <img src="images/radial density GMC 1 interacting T = 4.png" width="45%" />
+  <img src="images/radial density GMC 1 isolated T = 4.png" width="45%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Isolated
+</p>
+
+<p float="left" align="center">
+  <img src="images/radial density GMC 2 interacting T = 4.png" width="45%" />
+  <img src="images/radial density GMC 2 isolated T = 4.png" width="45%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Isolated
+</p>
