@@ -132,7 +132,7 @@ I used *rdam.py*, which has the same GMC detection algorithm as *gmc_mass.py* an
 
 Initially, there are no differences at T = 0 because the companion galaxy hasn't interacted with the main galaxy yet. Hence, let's fast forward a bit and see how these GMCs evolve differently due to the interaction
 
-  <h3 align="center">Radial densities of GMCs at T = 8</h3>
+<h3 align="center">Radial densities of GMCs at T = 8</h3>
 
 <p float="left" align="center">
   <img src="images/radial density GMC 1 interacting T = 4.png" width="45%" />
@@ -164,4 +164,31 @@ Initially, there are no differences at T = 0 because the companion galaxy hasn't
   <b>Right:</b> Isolated
 </p>
 
-The spikes correspond to bins where no particles are detected. The general trend is a decreasing density the further you go from the centre of mass, which makes sense. The third GMC in the isolated case at T = 8 could be two GMCs that are too close to each other or are interacting.
+The spikes correspond to bins where no particles are detected. Overall, the general trend is a decreasing density the further you go from the centre of mass, which makes sense. The third GMC in the isolated case at T = 8 could be two GMCs that are too close to each other or are interacting, which the algorithm treated as one.
+
+Another thing we can compare to observation is specific angular momentum vs. mass
+
+<h3 align="center">Specific Angular Momentum vs Mass </h3>
+
+<p float="left" align="center">
+  <img src="images/mass vs specific angular momentum plot interacting T = 0.png" width="45%" />
+  <img src="images/mass vs specific angular momentum plot isolated T = 0.png" width="45%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Isolated
+</p>
+
+<p float="left" align="center">
+  <img src="images/mass vs specific angular momentum interacting T = 4.png" width="45%" />
+  <img src="images/mass vs specific angular momentum isolated T = 4.png%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Isolated
+</p>
+
+Again, at T = 0, we don't expect any difference in specific angular momentum between the isolated and interacting models. At T = 8, the specific angular momentum-mass relationship becomes very apparent, particularly at higher masses (> 10^6). This could imply that bigger and heavier clouds tend to spin more.
+
