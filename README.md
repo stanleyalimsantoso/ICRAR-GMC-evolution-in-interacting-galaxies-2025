@@ -59,10 +59,9 @@ We can vary the strength of the interaction without changing the mass ratio of t
   Describes the shape of the orbit.
   - e = 0 is a circular orbit
   - 0 < e < 1 is an elliptical orbit
-  - e = 1 is parabolic orbit.
+  - e = 1 is a parabolic orbit.
 
-Let's see what happens if the main galaxy interacts with another galaxy of 0.3 mass ratio.
-The settings from the previous simulation were pericentre distance = 1 code unit and eccentricity = 0.8, now we change it to pericentre distance = 2.0 and eccentricity 1.0
+We now examine a 0.3-mass-ratio companion. In the previous run, the pericentre distance was 1 code unit and the eccentricity was 0.8. Here we increase the pericentre to 2.0 code units and set e = 1.0.
 
 <p float="left">
   <img src="images/weaker interaction H2 gas time evolution picture.png" width="45%" />
@@ -77,7 +76,16 @@ A larger pericentre and higher eccentricity create a weaker interaction, allowin
   <img src="images/stronger vs weaker interaction new stars.png" width="45%" />
 </p>
 
-The weaker interaction leads to less H₂ formation and slower new star formation. The stronger interaction burns through the H₂ much quicker leading to more new stars initially.
+The weaker interaction leads to less H₂ and slow new star formation. The stronger interaction burns through the H₂ much quicker, triggering an early burst of new stars.
+
+Now that we have seen how tidal forces impact the formation of GMCs, consider the spread of the masses of the GMCs. The GMC mass function describes the mass distribution of the GMCs. Using the code *gmc_mass.py*, we can get a clear look at the mass function.
+
+*gmc_mass.py* detects GMCs by visiting an unvisited particle and then flagging all nearby particles as a cloud. It then bins through the mass of each cloud and returns the mean mass and percentage of clouds with mass bigger than 10^6.
+
+<p float="left">
+  <img src="images/stronger vs weaker interaction H2 gas.png" width="45%" />
+  <img src="images/stronger vs weaker interaction new stars.png" width="45%" />
+</p>
 
 
   
