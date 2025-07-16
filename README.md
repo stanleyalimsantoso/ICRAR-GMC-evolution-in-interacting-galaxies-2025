@@ -96,7 +96,7 @@ At T = 8(fourth timestep, corresponding to 1.13 Gyr), there is a clear differenc
 
 To better understand why the mass distribution differs between the two models, we can analyse the internal structure and properties of the clouds. This brings us to the radial density and specific angular momentum. The radial density tells us how the mass of a GMC is distributed from its centre outwards, while specific angular momentum is the total angular momentum divided by the cloud's mass.
 
-Here are some results about the radial densities of the GMCs in the isolated and interacting model, at T = 0 and T = 8
+I used *rdam.py*, which has the same GMC detection algorithm as *gmc_mass.py* and calculated the centre of mass of each GMC and built a radial density profile through binning. *rdam.py* also calculates the distribution of specific angular momentum vs mass. Here are some results about the radial densities of the GMCs in the isolated and interacting models, at T = 0 and T = 8
 
 <h3 align="center">Radial densities of GMCs at T = 0</h3>
 
@@ -113,6 +113,16 @@ Here are some results about the radial densities of the GMCs in the isolated and
 <p float="left" align="center">
   <img src="images/radial density GMC 2 interacting T = 0.png" width="45%" />
   <img src="images/radial density GMC 2 isolated T = 0.png" width="45%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Isolated
+</p>
+
+<p float="left" align="center">
+  <img src="images/radial density GMC 3 interacting T = 0.png" width="45%" />
+  <img src="images/radial density GMC 3 isolated T = 0.png" width="45%" />
 </p>
 
 <p align="center">
@@ -143,3 +153,15 @@ Initially, there are no differences at T = 0 because the companion galaxy hasn't
   <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
   <b>Right:</b> Isolated
 </p>
+
+<p float="left" align="center">
+  <img src="images/radial density GMC 3 interacting T = 4.png" width="45%" />
+  <img src="images/radial density GMC 3 isolated T = 4.png" width="45%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Interacting &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Isolated
+</p>
+
+The spikes correspond to bins where no particles are detected. The general trend is a decreasing density the further you go from the centre of mass, which makes sense. The third GMC in the isolated case at T = 8 could be two GMCs that are too close to each other or are interacting.
