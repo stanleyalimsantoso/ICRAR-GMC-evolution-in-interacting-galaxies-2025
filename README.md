@@ -10,13 +10,12 @@ First, let's do an isolated galaxy run and see how H₂ gas and new stars evolve
 
 ### H2 and Star Formation in Isolated Galaxies
 <p float="left">
-  <img src="images/Isolated H2 mass time evolution picture.png" width="45%" />
-  <img src="images/isolated new star time evolution picture.png" width="45%" />
+  <img src="images/GMC MASS FUNCTION NEW T = 4 COMBINED.png" width="45%" />
 </p>
 
 Here, we can see how H₂ gases (left) and new stars (right) form and evolve over time. Initially, the H2 gas is evenly spread out across the galaxy, with no stars present. After some time, the H₂ gas clumps together to form GMCs, which then trigger star formation. Visually, we can see an increasing number of stars as the simulation progresses.
 
-To analyse the data, I developed the code *parsetout.py*, which does a simple job of calculating each of the particles' mass and summing them up according to their types (e.g. gas, new star, old star), for each timestep. But before showing the results, let's see how the distribution of stars and gases changes over time in an interacting galaxy. In the interacting model, we simulated a galaxy passing by with a single particle weighing 0.1, 0.3, and 1.0 times that of the original galaxy's mass.
+To analyse the data, I developed the code *parsetout.py*, which does a simple job of calculating each of the particles' mass(in solar mass units) and summing them up according to their types (e.g. gas, new star, old star), for each timestep. But before showing the results, let's see how the distribution of stars and gases changes over time in an interacting galaxy. In the interacting model, we simulated a galaxy passing by with a single particle weighing 0.1, 0.3, and 1.0 times that of the original galaxy's mass.
 
 ### H2 and Star Formation in 0.1 Mass Interacting Galaxy
 <p float="left">
@@ -80,12 +79,20 @@ The weaker interaction leads to less H₂ and slow new star formation. The stron
 
 Now that we have seen how tidal forces impact the formation of GMCs, consider the spread of the masses of the GMCs. The GMC mass function describes the mass distribution of the GMCs. Using the code *gmc_mass.py*, we can get a clear look at the mass function.
 
-*gmc_mass.py* detects GMCs by visiting an unvisited particle and then flagging all nearby particles as a cloud. It then bins through the mass of each cloud and returns the mean mass and percentage of clouds with mass bigger than 10^6.
+*gmc_mass.py* detects GMCs by visiting an unvisited particle and then flagging all nearby particles as a cloud. It then bins through the mass of each cloud and returns the mean mass and the percentage of clouds with a mass greater than 10^6.
 
 <p float="left">
-  <img src="images/stronger vs weaker interaction H2 gas.png" width="45%" />
-  <img src="images/stronger vs weaker interaction new stars.png" width="45%" />
+  <img src="images/GMC MASS FUNCTION NEW T = 4 COMBINED.png" width="45%" />
 </p>
+
+- mean mass
+   - Interacting: 6331654.416293271 solar mass
+   - Isolated: 9547133.997058632 solar mass
+- fraction of high-mass GMC(>10^6)
+   - Interacting: 0.4230769230769231
+   - Isolated: 0.7228260869565217
+
+At T = 8(fourth timestep, corresponding to 1.13 Gyr), there is a clear difference in the mass function. In the isolated case, there are fewer low-mass GMCs and many high-mass GMCs, while the distribution in the interacting case is more even. This result is not in agreement with observation, which shows that interacting galaxies usually have more high-mass GMCs. The discrepancy here might be caused by limited resolution(not enough particles) or issues in the detection algorithm.
 
 
   
