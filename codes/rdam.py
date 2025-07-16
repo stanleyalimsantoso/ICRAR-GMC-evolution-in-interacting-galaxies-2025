@@ -44,11 +44,7 @@ with open("tout.dat", "r") as file:
                 frah.append(float(line[13]))
 
         ngas = len(iwas_list)
-
-        print(f"DEBUG: snapshot={current_snap}, gas particles (iwas==2) = {len(iwas_list)}")
-
         visited = [False] * ngas
-
         gmc_com = {}
 
         print("calculating centre of mass of each GMC")
