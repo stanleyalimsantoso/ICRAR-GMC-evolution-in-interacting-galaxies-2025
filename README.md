@@ -82,7 +82,7 @@ Now that we have seen how tidal forces impact the formation of GMCs, consider th
 *gmc_mass.py* detects GMCs by visiting an unvisited particle and then flagging all nearby particles as a cloud. It then bins through the mass of each cloud and returns the mean mass and the percentage of clouds with a mass greater than 10^6.
 
 <p float="left">
-  <img src="images/GMC MASS FUNCTION NEW T = 4 COMBINED.png" width="45%" />
+  <img src="images/GMC MASS FUNCTION NEW T = 4 COMBINED.png" width="80%" />
 </p>
 
 - mean mass
