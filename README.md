@@ -182,7 +182,7 @@ Another thing we can compare to observation is specific angular momentum vs. mas
 
 <p float="left" align="center">
   <img src="images/mass vs specific angular momentum interacting T = 4.png" width="45%" />
-  <img src="images/mass vs specific angular momentum isolated T = 4.png%" />
+  <img src="images/mass vs specific angular momentum plot isolated T = 4.png" width="45%" />
 </p>
 
 <p align="center">
