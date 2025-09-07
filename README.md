@@ -211,7 +211,7 @@ Now we'll move to a galaxy, far far away or 2.73 million light-years far from Ea
 </p>
 <p float="left" align="center">
   <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=4.png" width="45%" />
-  <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=6.png" />
+  <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=6.png" width="45%" />
 </p>
 
 <!-- Row 3 -->
@@ -224,11 +224,18 @@ Now we'll move to a galaxy, far far away or 2.73 million light-years far from Ea
   <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=10.png" width="45%" />
 </p>
 
-The graphs here are the specific angular momentum plotted against the masses of the GMCs in log-log over 10 simulation timesteps or 1.41 Gyr. We can clearly see that the same dependence on mass of the specific angular momentum is also present in this simulation of the M33 galaxy. We are fitting a line in the form of:
-$$ j = c^10 *M^a $$
+The graphs here show the specific angular momentum plotted against the masses of the GMCs in a log-log scale over 10 simulation timesteps, or approximately 1.41 Gyr. We can clearly see that the same dependence on mass of the specific angular momentum is also present in this simulation of the M33 galaxy. We are fitting a line in the form of:
+$j = c^{10} M^{\alpha}$
+
+where  
+j — specific angular momentum  
+M — GMC mass  
+\alpha — slope (gradient) of the log–log relation  
+c — normalisation constant
 
 <p float="left">
   <img src="images/M33 Galaxy Isolated/alphas vs time" width="60%" />
 </p>
 
+This figure traces the time evolution of $\alpha$. After an initial growth phase, $\alpha$ increases and then stabilises at $\approx 0.72$, which is close to the observed M33 slope of $\alpha \approx 0.68$ reported by [Braine et al. (2019)](https://arxiv.org/abs/1911.08977).
 
