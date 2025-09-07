@@ -192,6 +192,8 @@ Another thing we can compare to observation is specific angular momentum vs. mas
 
 Again, at T = 0, we don't expect any difference in specific angular momentum between the isolated and interacting models. At T = 8, the specific angular momentum-mass relationship becomes very apparent, particularly at higher masses (> 10^6). This could imply that bigger and heavier clouds tend to spin more.
 
+## Simulations of M33 galaxy
+
 Now we'll move to a galaxy, far far away or 2.73 million light-years far from Earth to be exact! The Triangulum galaxy, also known as the M33 galaxy, is the third-largest galaxy in our local group behind Andromeda(also known as M31) and the Milky Way. It is believed that the M33 galaxy has interacted with the M31 in the past, evidenced by a giant HI bridge connecting them both[(Bekki 2008)](https://arxiv.org/abs/0807.1161). We will simulate the M33 galaxy by itself and the M33 galaxy interacting with the M31, and compare our findings to observational data.
 
 <!-- Row 1 -->
@@ -225,16 +227,31 @@ Now we'll move to a galaxy, far far away or 2.73 million light-years far from Ea
 </p>
 
 The graphs here show the specific angular momentum plotted against the masses of the GMCs in a log-log scale over 10 simulation timesteps, or approximately 1.41 Gyr. We can clearly see that the same dependence on mass of the specific angular momentum is also present in this simulation of the M33 galaxy. We are fitting a line in the form of:
-$j = c^{10} M^{\alpha}$
+The graphs here show the specific angular momentum plotted against the masses of the GMCs in a log–log scale over 10 simulation timesteps (~1.41 Gyr). We fit a power law of the form:
 
-where  
-j — specific angular momentum  
-M — GMC mass  
-\alpha — slope (gradient) of the log–log relation  
-c — normalisation constant
+<p align="center">
+  $ \Large j = c^{10}\, M^{\alpha} $
+</p>
+
+**Symbols**
+
+<dl>
+  <dt><code>j</code></dt>
+  <dd>specific angular momentum</dd>
+
+  <dt><code>M</code></dt>
+  <dd>GMC mass</dd>
+
+  <dt><code>\alpha</code></dt>
+  <dd>slope (gradient) of the log–log relation</dd>
+
+  <dt><code>c</code></dt>
+  <dd>normalisation constant</dd>
+</dl>
+
 
 <p float="left">
-  <img src="images/M33 Galaxy Isolated/alphas vs time" width="60%" />
+  <img src="images/M33 Galaxy Isolated/alphas vs time.png" width="60%" />
 </p>
 
 This figure traces the time evolution of $\alpha$. After an initial growth phase, $\alpha$ increases and then stabilises at $\approx 0.72$, which is close to the observed M33 slope of $\alpha \approx 0.68$ reported by [Braine et al. (2019)](https://arxiv.org/abs/1911.08977).
