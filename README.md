@@ -229,25 +229,18 @@ Now we'll move to a galaxy, far far away or 2.73 million light-years far from Ea
 The graphs here show the specific angular momentum plotted against the masses of the GMCs in a log-log scale over 10 simulation timesteps, or approximately 1.41 Gyr. We can clearly see that the same dependence on mass of the specific angular momentum is also present in this simulation of the M33 galaxy. We are fitting a line in the form of:
 The graphs here show the specific angular momentum plotted against the masses of the GMCs in a log–log scale over 10 simulation timesteps (~1.41 Gyr). We fit a power law of the form:
 
-<p align="center">
-  $ \Large j = c^{10}\, M^{\alpha} $
-</p>
+$$
+\Large j = c^{10}\, M^{\alpha}
+$$
 
 **Symbols**
 
-<dl>
-  <dt><code>j</code></dt>
-  <dd>specific angular momentum</dd>
-
-  <dt><code>M</code></dt>
-  <dd>GMC mass</dd>
-
-  <dt><code>\alpha</code></dt>
-  <dd>slope (gradient) of the log–log relation</dd>
-
-  <dt><code>c</code></dt>
-  <dd>normalisation constant</dd>
-</dl>
+| Symbol | Description |
+|:-----:|-------------|
+| $j$ | specific angular momentum |
+| $M$ | GMC mass |
+| $\alpha$ | slope (gradient) of the log–log relation |
+| $c$ | normalisation constant |
 
 
 <p float="left">
