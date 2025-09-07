@@ -192,3 +192,43 @@ Another thing we can compare to observation is specific angular momentum vs. mas
 
 Again, at T = 0, we don't expect any difference in specific angular momentum between the isolated and interacting models. At T = 8, the specific angular momentum-mass relationship becomes very apparent, particularly at higher masses (> 10^6). This could imply that bigger and heavier clouds tend to spin more.
 
+Now we'll move to a galaxy, far far away or 2.73 million light-years far from Earth to be exact! The Triangulum galaxy, also known as the M33 galaxy, is the third-largest galaxy in our local group behind Andromeda(also known as M31) and the Milky Way. It is believed that the M33 galaxy has interacted with the M31 in the past, evidenced by a giant HI bridge connecting them both[(Bekki 2008)](https://arxiv.org/abs/0807.1161). We will simulate the M33 galaxy by itself and the M33 galaxy interacting with the M31, and compare our findings to observational data.
+
+<!-- Row 1 -->
+<p align="center">
+  <b>Left:</b> M33 Galaxy Isolated T = 0 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> M33 Galaxy Isolated T = 2
+</p>
+<p float="left" align="center">
+  <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=0.png" width="45%" />
+  <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=2.png" width="45%" />
+</p>
+
+<!-- Row 2 -->
+<p align="center">
+  <b>Left:</b> M33 Galaxy Isolated T = 4 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> M33 Galaxy Isolated T = 6
+</p>
+<p float="left" align="center">
+  <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=4.png" width="45%" />
+  <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=6.png" />
+</p>
+
+<!-- Row 3 -->
+<p align="center">
+  <b>Left:</b> M33 Galaxy Isolated T = 8 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Right:</b> M33 Galaxy Isolated T = 10
+</p>
+<p float="left" align="center">
+  <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=8.png" width="45%" />
+  <img src="images/M33 Galaxy Isolated/cut fitted specific angular momentum vs mass isolated T=10.png" width="45%" />
+</p>
+
+The graphs here are the specific angular momentum plotted against the masses of the GMCs in log-log over 10 simulation timesteps or 1.41 Gyr. We can clearly see that the same dependence on mass of the specific angular momentum is also present in this simulation of the M33 galaxy. We are fitting a line in the form of:
+$$ j = c^10 *M^a $$
+
+<p float="left">
+  <img src="images/M33 Galaxy Isolated/alphas vs time" width="60%" />
+</p>
+
+
